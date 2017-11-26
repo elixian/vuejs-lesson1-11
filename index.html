@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.8/vue.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root" class="container">
+        
+                <tabs>
+                    <tab name="About us" :selected="true">
+                        <h1>{{ message }}</h1>
+                    </tab>
+                    <tab name="About You" >
+                         <h1>{{ message }} Encore</h1>
+                    </tab>
+                    <tab name="About Them" >
+                        <h1>{{ message }} Again</h1>
+                    </tab>
+                </tabs>
+        
+    </div>
+<script src="main.js"></script>
+
+
+</body>
+</html>
+
